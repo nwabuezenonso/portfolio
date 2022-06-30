@@ -7,10 +7,10 @@ import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, SocialContain
 const Footer = () => {
   return (
     <>
-      <div style={{ textAlign: "center", fontSize: "32px"}}>
-        <span style={{  fontSize: "16px", textAlign: "left"}}>Collaborations are welcome<br/></span>
+      <div style={{ textAlign: "center", fontSize: "25px", marginLeft: "15px"}}>
+        <span style={{  fontSize: "16px", textAlign: "center"}}>Collaborations are welcome<br/></span>
         Let's Work Together🤝 <br/>
-        <span style={{ fontSize: "20px", fontWeight: 50, lineHeight: 0, margin: 0,   color: "rgba(255, 255, 255, 0.5)"}}>You can reach out to me via Email or any of the social media icon below <br/> you can stay in touch with me on Twitter and Github where I post my works</span>
+        <span style={{ fontSize: "16px", marginLeft: "5%", textAlign: "Left", fontWeight: 50, lineHeight: 0, margin: 0,   color: "rgba(255, 255, 255, 0.5)"}}>You can reach out to me via Email or any of the social media icon below <br/> you can stay in touch with me on Twitter and Github where I post my works</span>
       </div>
       <FooterWrapper>
       <LinkList>
