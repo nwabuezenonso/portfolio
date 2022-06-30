@@ -4,7 +4,9 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+import { Resume } from '../../constants/constants';
+
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -15,7 +17,7 @@ const Hero = (props) => (
         <SectionText>
         I’m a Software Engineer currently based in Nigeria. I create code based innovation and solve problems using web technologies. I am passionately interested in blockchain development
         </SectionText>
-        <Button onClick={props.handleClick}>My Resume</Button>
+        <Button target="_blank"  onClick={() => window.location = Resume.file}>My Resume</Button>
       </LeftSection><br/>
     </Section>
   </>

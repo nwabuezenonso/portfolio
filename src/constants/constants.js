@@ -72,3 +72,7 @@ export const TimeLineData = [
   { year: 2021, text: 'Worked as a freelancer', },
   { year: 2022, text: 'Preparing to work full time',},
 ];
+
+export const Resume = {
+  file: '/images/Chinonso Stephen Nwabueze.pdf'
+}
