@@ -13,7 +13,7 @@ const Hero = (props) => (
           I'm Chinonso Nwabueze
         </SectionTitle>
         <SectionText>
-        I’m a Software Engineer currently based in Nigeria. I create code based innovation and solve problems using web technologies. I am currently exploring blockchain technologies
+        I’m a Software Engineer currently based in Nigeria. I create code based innovation and solve problems using web technologies. I am passionately interested in blockchain development
         </SectionText>
         <Button onClick={props.handleClick}>My Resume</Button>
       </LeftSection><br/>
