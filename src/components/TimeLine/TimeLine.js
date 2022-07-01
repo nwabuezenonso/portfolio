@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText style={{ width: "100%"}}>
-        I'm Chinonso Nwabueze, A software engineer currently based in Nigeria. Who loves turning ideas from thought to reality. I specialize in creating functional user interfaces and making the user experience as comfortable as possible. I Enjoy coding and outside of work i Enjoy Games and Animes
+        I'm Chinonso Nwabueze, A software engineer currently based in Nigeria. Who loves turning ideas from thought to reality. I specialize in creating functional user interfaces and making the user experience as comfortable as possible. I Enjoy coding and outside of work i Enjoy Games, Animes and Sport
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
