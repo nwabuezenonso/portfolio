@@ -53,16 +53,6 @@ export const projects = [
     visit: 'https://damanimedia.netlify.app/',
     id: 5,
   },
-  {
-    title: 'Memories',
-    description: "A platform for sharing images",
-    image: '/images/6.png',
-    tags: ['react', 'Nodejs', 'Mongodb', 'Express', 'CSS'],
-    source: 'https://github.com/nwabuezenonso/project_mern_memories',
-    visit: 'https://stephen-mern.netlify.app/',
-    id: 6,
-  },
-
 ];
 
 export const TimeLineData = [
